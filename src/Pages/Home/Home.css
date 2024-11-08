@@ -1,0 +1,139 @@
+/*   Yeduguru Krishnakaanth Reddy -1002160211 ,Vedagiri Sri Sai Arpitha -1002155020 
+Valiveti Talpa Sai -1002152828 ,Vedantham Pranav Teja -1002160040 , Vanapalli Yasasvi  -1002182593
+*/
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #d8d6d6, #a7cff7);
+
+}
+
+.hero-section {
+  background-image: url('https://i.pinimg.com/originals/3b/d3/11/3bd3114ab2129e561d7e07d378ac640b.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .hero-btn {
+  background-color: #0073b1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-btn:hover {
+  background-color: #005885;
+}
+
+.conference-details {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.conference-details h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quick-link {
+  background-color: #0073b1;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.quick-link:hover {
+  background-color: #005885;
+}
+
+.news-section {
+  margin-top: 50px;
+}
+
+.news-section h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.news-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.news-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.quick-links-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.link-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 40%;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link-button {
+  background-color: #0073b1;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.link-button:hover {
+  background-color: #005885;
+}

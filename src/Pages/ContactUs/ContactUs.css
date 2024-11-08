@@ -1,0 +1,101 @@
+/*   Yeduguru Krishnakaanth Reddy -1002160211 ,Vedagiri Sri Sai Arpitha -1002155020 
+Valiveti Talpa Sai -1002152828 ,Vedantham Pranav Teja -1002160040 , Vanapalli Yasasvi  -1002182593
+*/
+.contact-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .contact-form {
+    margin-bottom: 40px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .contact-info h3 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  .contact-info a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  @media screen and (max-width: 768px) {
+    .events-container {
+      flex-direction: column;
+    }
+  
+    .event-card {
+      width: 100%;
+    }
+    
+  }

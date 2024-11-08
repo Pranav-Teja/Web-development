@@ -1,0 +1,16 @@
+/*   Yeduguru Krishnakaanth Reddy -1002160211 ,Vedagiri Sri Sai Arpitha -1002155020 
+Valiveti Talpa Sai -1002152828 ,Vedantham Pranav Teja -1002160040 , Vanapalli Yasasvi  -1002182593
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

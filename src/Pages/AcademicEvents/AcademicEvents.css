@@ -1,0 +1,54 @@
+/*   Yeduguru Krishnakaanth Reddy -1002160211 ,Vedagiri Sri Sai Arpitha -1002155020 
+Valiveti Talpa Sai -1002152828 ,Vedantham Pranav Teja -1002160040 , Vanapalli Yasasvi  -1002182593
+*/
+.events-container {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #d8d6d6, #a7cff7);
+    min-height: 80vh;
+  }
+  
+  .events-title {
+    text-align: center;
+    font-size: 32px;
+    color: #3f8efc;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-section {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details h2 {
+    color: #3f8efc;
+    margin-bottom: 10px;
+  }
+  
+  .event-details p {
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .events-container {
+      flex-direction: column;
+    }
+  
+    .event-card {
+      width: 100%;
+    }
+    
+  }

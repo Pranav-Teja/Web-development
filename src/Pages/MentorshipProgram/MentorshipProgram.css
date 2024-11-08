@@ -1,0 +1,140 @@
+/*   Yeduguru Krishnakaanth Reddy -1002160211 ,Vedagiri Sri Sai Arpitha -1002155020 
+Valiveti Talpa Sai -1002152828 ,Vedantham Pranav Teja -1002160040 , Vanapalli Yasasvi  -1002182593
+*/
+
+/* Global Styles */
+.mentorship-container {
+    padding: 50px;
+    background: linear-gradient(to bottom right, #d8d6d6, #a7cff7);
+    color: #333;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .mentorship-title {
+    text-align: center;
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .mentorship-intro p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: #555;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .mentorship-benefits {
+    margin-top: 50px;
+  }
+  
+  .mentorship-benefits h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  .mentorship-benefits ul {
+    list-style-type: disc;
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 700px;
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  .application-process {
+    margin-top: 60px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 3.5s ease-in-out;
+  }
+  
+  .application-process h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .application-process ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  .cta-section {
+    text-align: center;
+    margin-top: 40px;
+    animation: fadeIn 4s ease-in-out;
+  }
+  
+  .apply-button {
+    background-color: #3f8efc;
+    color: white;
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .apply-button:hover {
+    background-color: #326ec3;
+    transform: scale(1.05);
+  }
+  
+  .apply-button:active {
+    background-color: #275aa0;
+    transform: scale(0.98);
+  }
+  
+  .apply-button:focus {
+    outline: none;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .events-container {
+      flex-direction: column;
+    }
+  
+    .event-card {
+      width: 100%;
+    }
+    
+  }
+  
